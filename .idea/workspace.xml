@@ -112,6 +112,7 @@
       <change beforePath="$PROJECT_DIR$/../../../ansible/ansible-role-user" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ansible/ansible-role-user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../docker/dockerfiles" beforeDir="false" afterPath="$PROJECT_DIR$/../../../docker/dockerfiles" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../docs/toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../docs/toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/_example/outputs.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../terraform-aws-alb" beforeDir="false" afterPath="$PROJECT_DIR$/../../terraform-aws-alb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../terraform-aws-aurora" beforeDir="false" afterPath="$PROJECT_DIR$/../../terraform-aws-aurora" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../terraform-aws-cloudfront-cdn" beforeDir="false" afterPath="$PROJECT_DIR$/../../terraform-aws-cloudfront-cdn" afterDir="false" />

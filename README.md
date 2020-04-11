@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-    Terraform digitalocean ssh key
+    Terraform DigitalOcean SSH Key
 </h1>
 
 <p align="center" style="font-size: 1.2rem;"> 
@@ -25,10 +25,10 @@
 <a href='https://facebook.com/sharer/sharer.php?u=https://github.com/clouddrove/terraform-digitalocean-ssh-key'>
   <img title="Share on Facebook" src="https://user-images.githubusercontent.com/50652676/62817743-4f64cb80-bb59-11e9-90c7-b057252ded50.png" />
 </a>
-<a href='https://www.linkedin.com/shareArticle?mini=true&title=Terraform+digitalocean+ssh+key&url=https://github.com/clouddrove/terraform-digitalocean-ssh-key'>
+<a href='https://www.linkedin.com/shareArticle?mini=true&title=Terraform+DigitalOcean+SSH+Key&url=https://github.com/clouddrove/terraform-digitalocean-ssh-key'>
   <img title="Share on LinkedIn" src="https://user-images.githubusercontent.com/50652676/62817742-4e339e80-bb59-11e9-87b9-a1f68cae1049.png" />
 </a>
-<a href='https://twitter.com/intent/tweet/?text=Terraform+digitalocean+ssh+key&url=https://github.com/clouddrove/terraform-digitalocean-ssh-key'>
+<a href='https://twitter.com/intent/tweet/?text=Terraform+DigitalOcean+SSH+Key&url=https://github.com/clouddrove/terraform-digitalocean-ssh-key'>
   <img title="Share on Twitter" src="https://user-images.githubusercontent.com/50652676/62817740-4c69db00-bb59-11e9-8a79-3580fbbf6d5c.png" />
 </a>
 
@@ -81,9 +81,9 @@ Here is an example of how you can use this module in your inventory structure:
 
 | Name | Description |
 |------|-------------|
-| id | Name of SSH key. |
+| id | The unique ID of the key. |
 | name | Name of SSH key. |
-| public_key | Name of SSH key. |
+| public_key | The text of the public key. |
 
 
 
