@@ -5,7 +5,7 @@ provider "digitalocean" {
   token = var.do_token
 }
 
-module "keypair" {
+module "ssh-key" {
   source = "./../"
 
   key_path        = "~/.ssh/id_rsa.pub"
