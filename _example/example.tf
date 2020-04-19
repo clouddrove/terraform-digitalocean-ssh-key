@@ -1,8 +1,8 @@
-# Value set on terraform.tfvars
-variable "do_token" {}
 
 provider "digitalocean" {
-  token = var.do_token
+  # You need to set this in your .bashrc
+  # export DIGITALOCEAN_TOKEN="Your API TOKEN"
+  #
 }
 
 module "ssh-key" {
