@@ -14,3 +14,8 @@ output "public_key" {
   value       = join("", digitalocean_ssh_key.default.*.public_key)
   description = "The text of the public key."
 }
+
+output "fingerprint" {
+  value       = join("", digitalocean_ssh_key.default.*.fingerprint)
+  description = "The fingerprint of the SSH key."
+}
