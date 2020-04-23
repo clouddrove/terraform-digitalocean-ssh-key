@@ -7,7 +7,7 @@ output "id" {
 
 output "name" {
   value       = join("", digitalocean_ssh_key.default.*.name)
-  description = "Name of SSH key."
+  description = "The name of the SSH key."
 }
 
 output "public_key" {

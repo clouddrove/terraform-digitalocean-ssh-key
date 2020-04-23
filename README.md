@@ -57,7 +57,7 @@ This module has a few dependencies:
 Here is an example of how you can use this module in your inventory structure:
 ```hcl
     module "ssh-key" {
-      source          = "./../"
+      source          = "git::https://github.com/clouddrove/terraform-digitalocean-ssh-key"
       key             = "~/.ssh/id_rsa.pub"
       key_name        = "devops"
       enable_ssh_key  = true
@@ -81,8 +81,9 @@ Here is an example of how you can use this module in your inventory structure:
 
 | Name | Description |
 |------|-------------|
+| fingerprint | The fingerprint of the SSH key. |
 | id | The unique ID of the key. |
-| name | Name of SSH key. |
+| name | The name of the SSH key. |
 | public_key | The text of the public key. |
 
 
