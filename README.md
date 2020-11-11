@@ -5,14 +5,14 @@
     Terraform DigitalOcean SSH Key
 </h1>
 
-<p align="center" style="font-size: 1.2rem;">
+<p align="center" style="font-size: 1.2rem;"> 
     Provides a DigitalOcean SSH key resource to allow you to manage SSH keys for Droplet access.
      </p>
 
 <p align="center">
 
 <a href="https://www.terraform.io">
-  <img src="https://img.shields.io/badge/Terraform-v0.12-green" alt="Terraform">
+  <img src="https://img.shields.io/badge/Terraform-v0.13-green" alt="Terraform">
 </a>
 <a href="LICENSE.md">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="Licence">
@@ -41,7 +41,7 @@
 
 ## Prerequisites
 
-This module has a few dependencies:
+This module has a few dependencies: 
 
 
 
@@ -57,7 +57,7 @@ This module has a few dependencies:
 Here is an example of how you can use this module in your inventory structure:
 ```hcl
     module "ssh-key" {
-      source          = "git::https://github.com/clouddrove/terraform-digitalocean-ssh-key?ref=tags/0.12.0"
+      source          = "git::https://github.com/clouddrove/terraform-digitalocean-ssh-key?ref=tags/0.13.0"
       key             = "~/.ssh/id_rsa.pub"
       key_name        = "devops"
       enable_ssh_key  = true
@@ -72,10 +72,11 @@ Here is an example of how you can use this module in your inventory structure:
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| enable_ssh_key | A boolean flag to enable/disable ssh key. | bool | `true` | no |
-| key_name | Name  (e.g. `it-admin` or `devops`). | string | `` | no |
-| key_path | Name  (e.g. `~/.ssh/id_rsa.pub` or `ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD3F6tyPEFEzV0LX3X8BsXdMsQ`). | string | `` | no |
+|------|-------------|------|---------|:--------:|
+| enable\_ssh\_key | A boolean flag to enable/disable ssh key. | `bool` | `true` | no |
+| key\_name | Name  (e.g. `it-admin` or `devops`). | `string` | `""` | no |
+| key\_path | Name  (e.g. `~/.ssh/id_rsa.pub` or `ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD3F6tyPEFEzV0LX3X8BsXdMsQ`). | `string` | `""` | no |
+| ssh\_key | SSH key | `string` | `"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2Nv42WHrrdN3dugCAmoVrnNBlqXhRNo1bqsKGgqM/3VfzNzJ7W5eSZdFGsNhGx2WgSaBldcxokpPihGBrBgk8OzmPiWD3X+MGDwQUTdLkRrRPYKKs7i+ZKn5t+1KiBubLxK1hL3q4wgsrth9lepC7mSZwFk3FzHkXfwRswQ5fqFSaHS0G+JwK6Glf1ZKOoogQEPGa3YYUChfAGhjXb8KxtoKqYwfSny2VYEUBK16AfAHDljpkopmF5HYlTC0Z1PfGsZ1EhtCoi7+bEAUzrAby/yLICyEbuQxtasL9llSk+kohalxEeg7fobjybzLNdseXy/JM0wSHqmdM3DF894Od demo@clouddrove"` | no |
 
 ## Outputs
 
@@ -84,14 +85,14 @@ Here is an example of how you can use this module in your inventory structure:
 | fingerprint | The fingerprint of the SSH key. |
 | id | The unique ID of the key. |
 | name | The name of the SSH key. |
-| public_key | The text of the public key. |
+| public\_key | The text of the public key. |
 
 
 
 
 
 
-## Feedback
+## Feedback 
 If you come accross a bug or have any feedback, please log it in our [issue tracker](https://github.com/clouddrove/terraform-digitalocean-ssh-key/issues), or feel free to drop us an email at [hello@clouddrove.com](mailto:hello@clouddrove.com).
 
 If you have found it worth your time, go ahead and give us a ★ on [our GitHub](https://github.com/clouddrove/terraform-digitalocean-ssh-key)!
