@@ -52,7 +52,7 @@ This module has a few dependencies:
 
 
 
-
+## Examples
 
 **IMPORTANT:** Since the `master` branch used in `source` varies based on new modifications, we suggest that you use the release versions [here](https://github.com/clouddrove/terraform-digitalocean-ssh-key/releases).
 
